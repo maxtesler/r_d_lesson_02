@@ -2,7 +2,7 @@ from typing import List, Dict, Any
 from dotenv import find_dotenv, load_dotenv
 import os
 
-API_URL = 'https://fake-api-vycpfa6oca-uc.a.run.app/'
+
 
 
 def get_sales(date: str) -> List[Dict[str, Any]]:
